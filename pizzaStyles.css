@@ -98,6 +98,7 @@
     border-bottom: 4px solid #ccc;
     border-radius: 6px;
     transition: all .5s;
+    position: relative;
   }
   .card:hover {
     border-color: rgba(178, 34, 34, 0.219);
@@ -115,7 +116,8 @@
     background-color: rgba(178, 34, 34, 0.219);  
     border-radius: 5px;
     padding: 10px 5px;  
-    border: none; 
+    border: none;
+    bottom: 40px;   
  
   }
 
@@ -131,6 +133,9 @@
     color: black;
     padding: 10px 10px;  
     font-weight: bold;
+    position: absolute;
+
+
   }
 
   .pizza-button:hover {
@@ -190,7 +195,7 @@
   a.social:hover {
     opacity: 1;
   }
-  .clearfix {  
+  .clearfix::after {  
     content: "";
     clear: both;
     display:table;  
