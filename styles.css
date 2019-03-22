@@ -57,7 +57,8 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/christchurch.jpg') no-repeat top center ;
+  /* Image taken from https://www.kirratours.co.nz/lyttelton-christchurch-city-sights-jetboating-hero/ */
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -74,7 +75,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
@@ -99,7 +100,8 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: rgba(178, 34, 34, 0.219);
+
 }
 
 ul.skills {
@@ -110,14 +112,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: rgba(178, 34, 34, 0.568);
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: rgba(178, 34, 34, 0.849);
 }
 
 footer {
@@ -151,12 +153,7 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
-a.linkedin {
-  background-image: url(images/linkedin.svg);
-}
+
 a.github {
   background-image: url(images/github.svg);
 }
